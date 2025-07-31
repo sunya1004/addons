@@ -1,4 +1,4 @@
-ARG BUILD_FROM=alpine:3.18
+ARG BUILD_FROM=ghcr.io/hassio-addons/base/amd64:13.2.0
 FROM ${BUILD_FROM}
 
 ENV LANG=C.UTF-8
